@@ -20,7 +20,7 @@ It will scrape following fields:
 16. longitude
 17. zipcode
 However, the website may miss some of the fields and in this condition the field will leave blank.
-##PREREQUISITE
+## Prerequ
 Before running "main.py", please install following packages:
 1. scrapy
 2. csv
