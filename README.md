@@ -27,7 +27,7 @@ Before running "main.py", please install following packages:
 3. selenium
 4. re
 5. time
-and please ensure the computer is installed the newest version of firefox
-##CRAWLER STRUCTURE
+6. newest version of firefox
+## CRAWLER STRUCTURE
 This crawler is scrapy-selenium combined.RedfinSpider yields requests asychronously and process responses from the downloader middleware, this middleware mainly uses selenium.webdriver to generate response(in this way, we can bypass crawler blocking mechanism of redfin.com and get html as we want) The webdriver is instantiated in the spider and function as a downloader in the form of Firefox browser.
 
