@@ -1,0 +1,1 @@
+FIREFOX_DRIVER_PATH = r'/home/zewei/projects/scraper_redfin/geckodriver'
